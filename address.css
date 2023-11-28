@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(247, 5, 5, 0.159);
+}
+
+h1{
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+.address-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-wrap: wrap;
+    background-color: rgb(160, 227, 250);
+    gap: 40px;
+    padding: 40px;
+    box-shadow: 0 5px 10px gray;
+}
+.lebel{
+    display: flex;
+}
+button{
+    background-color: rgb(80, 255, 86);
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-radius: 23px;
+    box-shadow: 0 5px 10px gray;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(0, 0, 0, 0.112);
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.confirm h1{
+    color: green;
+    font-size: 40px;
+}
+.confirm img{
+    width: 100px;
+    margin-left: 80px;
+}
+button{
+    background-color: rgb(34, 51, 49);
+    color: whitesmoke;
+    padding: 5px 5px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
